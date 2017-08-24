@@ -1,0 +1,533 @@
+/*头部开始*/
+.music-header {
+    background: #13b762;
+}
+.header-ranking-img{
+    height: 1rem;
+    width: 1rem;
+    float: left;
+}
+.header-ranking-img img{
+    display: block;
+    width:.44rem;
+    padding:.28rem 0;
+}
+.header-title{
+    width: calc(100% - 2rem);
+    margin: 0 auto;
+    float: left;
+    line-height: 1rem;
+    text-align: center;
+    font-size: .4rem;
+    font-weight:500;
+  
+}
+.header-title span{
+    color:#fff
+}
+.header-opt{
+    width: 1rem;
+    height: 1rem;
+    float: right;
+}
+.header-opt img{
+    display: block;
+    width:.36rem;
+    padding:.32rem 0;
+    float: right;
+}
+.header-opt img[title='搜索']{
+    margin-left: .13rem;
+}
+/*头部结束*/
+/*底部开始*/
+.music-footer{
+    background: #12ca79;
+    padding:.14rem 0;
+}
+.music-footer li{
+    width: 25%;
+    float: left;
+}
+.music-footer li img,.music-footer li span{
+    display: block;
+}
+.music-footer li img{
+    height: .5rem;
+    margin: 0 auto;
+}
+.music-footer li span{
+    text-align: center;
+    line-height: .4rem;
+    font-size: .24rem;
+    color: #fff;
+}
+.music-footer .active span{
+    color: #272727;
+}
+/*底部结束*/
+/*banner开始*/
+.music-banner{
+    position: relative;
+}
+.music-banner .banner-img img{
+    width: 7.5rem;
+    display: block;
+}
+.music-banner .banner-spot{
+    position: absolute;
+    bottom: .4rem;
+    left: .27rem;
+}
+.music-banner .banner-spot li.active{
+    width: .36rem;
+}
+.music-banner .banner-spot li{
+    width: .14rem;
+    height: .14rem;
+    background: #fff;
+    border-radius: .14rem;
+    margin-right: .11rem;
+    float: left;
+}
+/*banner结束*/
+
+/*首页内容区开始*/
+.warpper .content>*{
+    margin-bottom: .45rem;
+}
+.warpper content>div{
+    padding: 0 .12rem;
+}
+.music-nav li{
+    float: left;
+    padding-top:.55rem ;
+    width: 25%;
+}
+.music-nav li>div{
+    margin: 0 auto;
+}
+.music-nav li img{
+    display: block;
+    height: .66rem;
+    margin: 0 auto;
+
+}
+.music-nav .nav-img{
+    background: #00dd44;
+    border-radius: 50%;
+    width: 1.1rem;
+    height: 1.1rem;
+    padding: .22rem 0;
+    box-shadow: 0 0.01rem 0.08rem 0 rgba(0,205,63,.5);
+}
+.music-nav .nav-info{
+    font-weight: 600;
+    text-align: center;
+    line-height: .34rem;
+    font-size: .3rem;
+    margin-top: .26rem;
+}
+.content .music-spot{
+    background: #00de44;
+    margin: 0 .08rem;
+    vertical-align: middle;
+}
+
+.content-header h4{
+    font-size: .34rem;
+    line-height: .4rem;
+}
+.content-header span{
+    font-size: .22rem;
+    display: block;
+    line-height: .3rem;
+    color: #adadad;
+}
+.content-header strong{
+    color: #adadad;
+    font-weight: 700;
+}
+
+.content-header .content-name{
+    float: left;
+}
+.content-header .music-menu{
+    float: right;
+    font-size: .2rem;
+    width: 1rem;
+    height: .46rem;
+    text-align: center;
+    color: #fff;
+    background: #00de44;
+    border-radius: .46rem;
+    line-height: .5rem;
+    font-weight: 600;
+    box-shadow: 0 .02rem .11rem rgba(2,203,63,.5);
+    margin-top: 0.1rem;
+}
+.consult-container{
+    background: #fff;
+    margin: .12rem -.36rem;
+    padding: .18rem .36rem;
+}
+.consult-container ul{
+    width: 100rem;
+}
+.consult-container li{
+    float: left;
+    margin-right: .2rem;
+    box-shadow: 0 .02rem .07rem rgba(0,0,0,.5)    ;
+    border-radius: .06rem;
+}
+.consult-container li img{
+    display: block;
+    width: 3.06rem;
+    height: 1.86rem;
+}
+
+.video-container{
+    margin-top: .12rem ;
+
+}
+.video-container a{
+    box-shadow: 0 .02rem .05rem rgba(0,0,0,.5);
+}
+.video-container img{
+    display: block;
+    width:100%;
+}
+.exp-sharing .consult-container li img{
+    width: 2.17rem;
+    height: 2.17rem;
+    border-radius: .06rem;
+}
+/*首页内容区结束*/
+/*个人开始*/
+.personal-info{
+    margin:0 -.36rem;
+}
+.personal-info img{
+    display: block;
+    width:100%;
+}
+.warpper .content .personal-info{
+    margin-bottom: 0;
+}
+.personal-tag{
+    padding: .01rem 0;
+}
+.personal-tag li{
+    width: 100%;
+    background: #fff;
+    border-radius: .06rem;
+    padding: .14rem;
+    margin: .16rem 0;
+
+}
+.personal-tag li>div{
+    float: left;
+}
+.personal-tag .tag-image{
+    padding: .05rem .2rem;
+}
+.personal-tag .tag-image img{
+    height: .43rem;
+    display: block;
+}
+.personal-tag .tag-word{
+
+}
+.personal-tag .tag-arr {
+    float: right;
+}
+.personal-tag .tag-arr img{
+    width: .3rem;
+    display: block;
+
+}
+/*个人结束*/
+/*训练详情开始*/
+.train .consult-container{
+    background: none;
+}
+/*训练详情结束*/
+/*教练选择开始*/
+.coach-container li{
+    background: #fff;
+    padding:.1rem ;
+    margin-top: .16rem;
+}
+.coach-container li>div{
+    float: left;
+}
+.coach-img{
+    margin-right: .4rem;
+}
+.coach-img img{
+    width: 2.01rem;
+    display: block;
+}
+.coach-info{
+    width: calc(100% - 2.41rem);
+    padding: .1rem 0 0;
+}
+.coach-name{
+    font-size: .34rem;
+    line-height: .45rem;
+    border-bottom: 1px solid #d2d2d2;
+}
+.coach-int{
+    padding: .08rem 0;
+    font-size: .26rem;
+    line-height: .34rem;
+    color: #949494;
+}
+.coach-menu{
+    font-size: .26rem;
+    line-height: .34rem;
+}
+
+/*开始*/
+.start{
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg_2.png)0 0 no-repeat;
+    position: absolute;
+    background-size: 100%;
+    top:0;
+    left: 0;
+}
+.start .customized-menu{
+    position: absolute;
+    bottom: 1.38rem;
+    width: 100%;
+}
+.start .customized-menu button{
+    border-radius: .95rem;
+    width: 2.8rem;
+}
+.start .music-cancle button{
+    background: #01ade6;
+    box-shadow: 0 0.05rem 0.13rem rgba(1,173,230,.5);
+}
+.start h2{
+    margin-top: 1.68rem;
+    font-size: .8rem;
+    color: #fff;
+    text-align: center;
+}
+.start h3{
+    margin-top: .28rem;
+    font-size: .5rem;
+    color: #fff;
+    text-align: center;
+}
+.info-img{
+    position: relative;
+    margin-top: 4.9rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 1.47rem;
+    height: 1.47rem;
+}
+.info-img>div{
+    width: 1.47rem;
+    height: 1.47rem;
+    background: url(../img/start_1.png) 0 0 no-repeat;
+    background-size: 100%;
+    border-radius:.1rem;
+    position: absolute;
+    z-index: 2;
+
+}
+.info-img:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 1.47rem;
+    height: 1.47rem;
+    background: #12ca79;
+    top:0;
+    left: 0;
+    transform: rotate(15deg);
+    z-index: 1;
+    border-radius:.1rem;
+}
+.start-spot{
+    width: 3.15rem;
+    position: absolute;
+    height: .2rem;
+    background: url(../img/spot.png) 0 0 no-repeat;
+    background-size:100% ;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    top: 8.8rem;
+}
+/*结束*/
+/*登陆开始*/
+.login{
+    width: 100%;
+    height: 100%;
+    background: url(../img/login_bg.png)0 0 no-repeat;
+    position: absolute;
+    background-size: 100%;
+    top:0;
+    left: 0;
+}
+.logo{
+    width: 6rem;
+    height: 1.26rem;
+    background: url(../img/logo.png)0 0 no-repeat;
+    position: absolute;
+    background-size: 100%;
+    top:1.82rem;
+    left: .58rem;
+    z-index: 9;
+}
+.login-form{
+    background: #fff;
+    width: 6rem;
+    height: 8.8rem;
+    float: right;
+    margin-top: 2.65rem;
+    padding: .94rem .3rem;
+    position: relative;
+}
+
+.login-img img{
+    width: 1.68rem;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 .02rem .11rem rgba(0,169,208,.8);
+    border-radius: 50%;
+}
+.login-mode{
+    margin: .6rem 0 .5rem;
+}
+.login-mode>div{
+    width: 50%;
+    float: left;
+    padding-right: .2rem;
+}
+
+
+
+.login-mode>div span{
+    display: block;
+    width: 2rem;
+    padding-left: .8rem;
+    line-height: .35rem;
+    position: relative;
+    color: #bebebe;
+    font-size: .26rem;
+}
+/* 
+.login-mode>div.active span:before {
+    border-color: #23b868;
+}
+.login-mode>div span:before{
+    content: '';
+    display: inline-block;
+    width: .12rem;
+    height: .12rem;
+    border-radius: 50%;
+    border:.06rem solid;
+    border-color: #bebebe;
+    position: absolute;
+    transform: translate(-.3rem ,.03rem);
+} */
+.login-info-img img{
+    width: .62rem;
+    display: block;
+}
+.login-input input{
+    border:none;
+    display: block;
+    font-size: .28rem;
+
+}
+.login-input{
+    padding: .12rem .3rem;
+    border:.02rem solid #23b868;
+    border-radius: .57rem;
+    width: calc(100% - .82rem);
+    position: relative;
+}
+
+.username>div,.pass>div{
+    float: left;
+    margin-right: .1rem;
+}
+.username,.pass{
+    margin-bottom: .32rem;
+}
+
+.login-opt{
+    line-height: .35rem;
+}
+.login-opt .remember{
+    float: left;
+    margin-left: .6rem;
+}
+.login-opt .remember>*{
+    vertical-align: middle;
+}
+.login-opt .forget {
+    float: right;
+    color: #6594e9;
+    margin-right: .2rem;
+}
+.three-party-login{
+    position: relative;
+    margin: .36rem 0 .24rem;
+}
+.three-party-login .line{
+    content: "";
+    display: block;
+    position: absolute;
+    width:3.64rem;
+    height: .03rem;
+    background: #434343;
+    margin-left:  50%;
+    transform: translate(-50%,.14rem);
+    top: 0;
+}
+.three-party-login span{
+    line-height: .35rem;
+    display: block;
+    width: 1.5rem;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    text-align: center;
+}
+.three-party-login-icon img{
+    display: block;
+    width: .6rem;
+    margin: 0 auto;
+}
+.three-party-login-icon li{
+    width: 33.33%;
+    float: left;
+}
+.login .customized-menu{
+    transform: translate(.2rem,-.5rem);
+}
+.login .customized-menu button{
+    width: 2.7rem;
+    background:#25e67c;
+    border-radius:.5rem;
+
+}
+
+h4{
+    font-size: .34rem;
+    color: #fff;
+}
+span{
+     color: #fff;
+}
+
+/*登陆结束*/

@@ -1,0 +1,88 @@
+
+body {
+    font-size: 12px;
+    color: #666;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 24px;
+    /*background: #000;*/
+    background: #f2f2f2;
+
+}
+body{
+    overflow-x:hidden ;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #313131;
+}
+
+.base-clearboth:before, .base-clearboth:after {
+    display: block;
+    content: "";
+}
+
+.base-clearboth:after {
+    clear: both;
+}
+.content{
+    width: 7.02rem;
+    margin: 0 auto;
+}
+
+.music-spot{
+    display: inline-block;
+    width: .1rem;
+    height: .1rem ;
+    border-radius: 50%;
+}
+.display-none{
+    display: none;
+}
+.header-no-icon .header-opt img,.header-no-icon .header-ranking-img img{
+    display: none;
+}
+/*.header-no-icon .header-title{
+    font-size: .4rem;
+    text-shadow: none;
+}*/
+.music-header{
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+    z-index: 99;
+ }
+.music-footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+
+}
+.warpper{
+    margin-bottom: 1.19rem;
+    margin-top: 1rem;
+}
+input{
+    outline:none;
+}
+
+input::-webkit-input-placeholder {
+    color: #afafaf;
+}
+input:-moz-placeholder{
+　　color:#afafaf;
+}
+input::-moz-placeholder{
+　　color:#afafaf;
+}
+input:-ms-input-placeholder {
+　　color:#afafaf;
+}
